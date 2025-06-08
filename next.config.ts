@@ -16,7 +16,6 @@ const nextConfig: NextConfig = {
         hostname: '*'
       }
     ],
-    domains: ['lh3.googleusercontent.com', 'yourdomain.com'],
   },
 
   
