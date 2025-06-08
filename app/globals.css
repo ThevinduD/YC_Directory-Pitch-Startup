@@ -187,7 +187,7 @@
 
     /* view */
     .view-container {
-        @apply flex justify-end items-center mt-5 fixed bottom-18 right-5;
+        @apply flex justify-end items-center mt-5 fixed bottom-20 right-5;
     }
 
     .view-text {

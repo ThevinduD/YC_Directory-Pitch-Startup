@@ -15,7 +15,8 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: '*'
       }
-    ]
+    ],
+    domains: ['lh3.googleusercontent.com', 'yourdomain.com'],
   },
 
   
