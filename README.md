@@ -3,9 +3,13 @@
 ## Overview
 
 YC Directory is a modern platform designed to showcase and discover innovative startup ideas, empowering founders to pitch, share, and gain visibility in a fast-paced tech ecosystem.
+
 Built with Next.js App Router and TypeScript, the platform delivers a seamless user experience with fast navigation, responsive design, and scalable performance.
+
 Startups and creators can effortlessly publish rich, structured pitches through a Sanity.io-powered CMS, making content management flexible and intuitive.
-With Sentry.io integrated for real-time error tracking and monitoring, the platform ensures high reliability and a smooth experience for all users from founders to investors.
+
+With Sentry.io integrated for real-time error tracking and monitoring, the platform ensures high reliability and a smooth experience for all users.
+
 Whether you're launching a fresh idea or browsing for the next big thing, YC Directory is the digital stage for tomorrow’s startups.
 
 ## Features 
