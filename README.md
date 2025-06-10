@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# YC-Directory Pitch Startup
 
-## Getting Started
+## Overview
 
-First, run the development server:
+YC Directory is a modern platform designed to showcase and discover innovative startup ideas, empowering founders to pitch, share, and gain visibility in a fast-paced tech ecosystem.
+Built with Next.js App Router and TypeScript, the platform delivers a seamless user experience with fast navigation, responsive design, and scalable performance.
+Startups and creators can effortlessly publish rich, structured pitches through a Sanity.io-powered CMS, making content management flexible and intuitive.
+With Sentry.io integrated for real-time error tracking and monitoring, the platform ensures high reliability and a smooth experience for all users from founders to investors.
+Whether you're launching a fresh idea or browsing for the next big thing, YC Directory is the digital stage for tomorrow’s startups.
 
+## Features 
+
+- User-Friendly Navigation – Intuitive layout and structure for effortless browsing.
+- Responsive Design – Optimized for a seamless experience across all devices and screen sizes.
+- Detailed Startup Cards – Explore comprehensive pitch details, founder info, and startup highlights.
+- Flexible Content Management – Startups can easily publish rich, structured pitches using a Sanity.io-powered CMS.
+- Real-Time Error Tracking – Integrated with Sentry.io for instant error monitoring and a smooth, reliable user experience.
+
+## Technologies 
+
+- Frontend: HTML, CSS, Tailwind CSS, and ShadCN for clean, responsive UI.
+- Language: Built with TypeScript for type safety and scalability.
+- Framework: Next.js App Router for full-stack routing and performance.
+- CMS: Sanity.io for real-time, structured content management.
+- Monitoring: Sentry.io for error tracking and performance insights.
+
+
+## Installation
+### Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/ThevinduD/YC_Directory-Pitch-Startup.git
+cd YC_Directory-Pitch-Startup
+npm install
+npm start
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
