@@ -1,11 +1,11 @@
 "use client";
 
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
 import { useActionState, useEffect, useState } from "react";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
-// import MDEditor from "@uiw/react-md-editor";
-const MDEditor = dynamic(() => import("@uiw/react-md-editor"), { ssr: false });
+import MDEditor from "@uiw/react-md-editor";
+// const MDEditor = dynamic(() => import("@uiw/react-md-editor"), { ssr: false });
 import { Button } from "./ui/button";
 import { Send } from "lucide-react";
 import { formSchema } from "@/lib/validation";
@@ -77,12 +77,6 @@ const StartupForm = () => {
     status: "INITIAL",
   });
 
-  const [isMounted, setIsMounted] = useState(false);
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
   return (
     <form action={formAction} className="startup-form">
       <div>
@@ -153,21 +147,19 @@ const StartupForm = () => {
         <label htmlFor="pitch" className="startup-form_label">
           Pitch
         </label>
-        {isMounted && (
-          <MDEditor
-            value={pitch}
-            onChange={(value) => setPitch(value as string)}
-            id="pitch"
-            preview="edit"
-            height={300}
-            style={{ borderRadius: 20, overflow: "hidden" }}
-            textareaProps={{
-              placeholder:
-                "Briefly describe your idea and what problems it solves",
-            }}
-            previewOptions={{ disallowedElements: ["style"] }}
-          />
-        )}
+        <MDEditor
+          value={pitch}
+          onChange={(value) => setPitch(value as string)}
+          id="pitch"
+          preview="edit"
+          height={300}
+          style={{ borderRadius: 20, overflow: "hidden" }}
+          textareaProps={{
+            placeholder:
+              "Briefly describe your idea and what problems it solves",
+          }}
+          previewOptions={{ disallowedElements: ["style"] }}
+        />
 
         {errors.pitch && <p className="startup-form_error">{errors.pitch}</p>}
       </div>
