@@ -1,11 +1,9 @@
 "use client";
 
-// import dynamic from "next/dynamic";
 import { useActionState, useEffect, useState } from "react";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import MDEditor from "@uiw/react-md-editor";
-// const MDEditor = dynamic(() => import("@uiw/react-md-editor"), { ssr: false });
 import { Button } from "./ui/button";
 import { Send } from "lucide-react";
 import { formSchema } from "@/lib/validation";
