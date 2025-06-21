@@ -29,7 +29,6 @@ Whether you're launching a fresh idea or browsing for the next big thing, YC Dir
 - **Monitoring**: Sentry.io for error tracking and performance insights.
 
 ## Getting Started
----
 ### Prerequisites
 
 Node.js (v18+)
