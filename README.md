@@ -31,8 +31,8 @@ Whether you're launching a fresh idea or browsing for the next big thing, YC Dir
 ## Getting Started
 ### Prerequisites
 
-Node.js (v18+)
-npm or yarn
+- Node.js (v18+)
+- npm or yarn
 
 ## Installation
 ### Clone the Repository
